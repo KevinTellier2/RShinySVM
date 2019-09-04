@@ -13,8 +13,8 @@ library(shiny)
 shinyUI(fluidPage(
 
     # Application title
-    titlePanel("Test dÃ©ploiement Travis - ShinyApps.io"),
-    shiny::tags$p("Ce dÃ©ploiement est entiÃ¨rement rÃ©alisÃ© par un job Travis !", style = "color:red;"),
+    titlePanel("Test déploiement Travis - ShinyApps.io"),
+    shiny::tags$p("Ce déploiement est entièrement réalisé par un job Travis !", style = "color:red;"),
     # Sidebar with a slider input for number of bins
     sidebarLayout(
         sidebarPanel(
@@ -24,7 +24,7 @@ shinyUI(fluidPage(
                         max = 50,
                         value = 30),
             hr(),
-            downloadButton("dlPDF", "TÃ©lÃ©charger PDF de test")
+            downloadButton("dlPDF", "Télécharger PDF de test")
         ),
 
         # Show a plot of the generated distribution
