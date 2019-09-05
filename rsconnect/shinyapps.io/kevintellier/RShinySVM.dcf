@@ -1,0 +1,12 @@
+name: RShinySVM
+title: RShinySVM
+username:
+account: kevintellier
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1147588
+bundleId: 2385520
+url: https://kevintellier.shinyapps.io/RShinySVM/
+when: 1567625034.39836
+asMultiple: FALSE
+asStatic: FALSE
